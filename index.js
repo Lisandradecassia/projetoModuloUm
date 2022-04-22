@@ -11,7 +11,7 @@ function inicio() {
   location.assign("../index.html");
 }
 function draco() {
-  location.assign("../DracoMalfoy/Fase1/index.html");
+  location.assign("../DracoMalfoy/Fase1/Index.html");
 }
 function voldemort() {
   location.assign("../LordWoldemort/Fase1/index.html");
