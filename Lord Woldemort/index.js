@@ -49,11 +49,11 @@ function faseTres() {
     while (true) {
         var alternativa = (prompt("Digite a alternativa correta (a,b ou c)!").toLowerCase());
 
-        if (alternativa == 'c') {
+        if (alternativa == 'b') {
             alert('Mandou bem, você venceu!');
             location.assign("../../Venceu/index.html")
             break;
-        } else if (alternativa == 'a' || alternativa == 'b') {
+        } else if (alternativa == 'a' || alternativa == 'c') {
             if (contador >= 1) {
                 location.assign("../../Perdeu/index.html")
                 break;

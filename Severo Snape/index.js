@@ -3,11 +3,11 @@ function faseUm() {
     while (true) {
         var alternativa = (prompt("Digite a alternativa correta (a,b ou c)!").toLowerCase());
 
-        if (alternativa == 'b') {
+        if (alternativa == 'c') {
             alert('Mandou bem, Sonserino! Vamos para a fase 2?');
             location.assign("../Fase2/index.html")
             break;
-        } else if (alternativa == 'a' || alternativa == 'c') {
+        } else if (alternativa == 'a' || alternativa == 'b') {
             if (contador >= 1) {
                 location.assign("../../Perdeu/index.html")
                 break;
@@ -26,11 +26,11 @@ function faseDois() {
     while (true) {
         var alternativa = (prompt("Digite a alternativa correta (a,b ou c)!").toLowerCase());
 
-        if (alternativa == 'a') {
+        if (alternativa == 'b') {
             alert('Mandou bem, Sonserino! Vamos para a fase 3?');
             location.assign("../Fase3/index.html")
             break;
-        } else if (alternativa == 'b' || alternativa == 'c') {
+        } else if (alternativa == 'a' || alternativa == 'c') {
             if (contador >= 1) {
                 location.assign("../../Perdeu/index.html")
                 break;
