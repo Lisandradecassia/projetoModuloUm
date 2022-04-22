@@ -11,11 +11,11 @@ function inicio() {
   location.assign("../index.html");
 }
 function draco() {
-  location.assign("./DracoMalfoy/Fase1/index.html");
+  location.assign("../DracoMalfoy/Fase1/index.html");
 }
 function voldemort() {
-  location.assign("./LordWoldemort/Fase1/index.html");
+  location.assign("../LordWoldemort/Fase1/index.html");
 }
 function snape() {
-  location.assign("./SeveroSnape/Fase1/index.html");
+  location.assign("../SeveroSnape/Fase1/index.html");
 }
