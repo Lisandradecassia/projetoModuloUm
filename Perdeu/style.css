@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../Imagens/fimdejogo.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 3em;
+    flex-direction: column;
+}
+
+main {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.637);
+    color: #003116;
+    text-shadow: 1px 1px 2px #000000b3;
+    padding: 3em;
+    gap: 3em;
+    font-family: 'Lora', serifa;
+    box-shadow: 0 0 10px #fff, 0 0 10px #ff0;
+}
+
+h1 {
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 300%;
+    color: #003116;
+    text-shadow: 0 0 10px #fff, 0 0 10px #ff0;
+    text-align: center;
+}
+
+button {
+    border: none;
+    color: #D2C394;
+    background-color: #003116;
+    font-size: 1.5rem;
+    font-family: 'Harry Potter', sans-serif;
+    border-radius: 15px;
+    padding: 0.3em;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 4px #fff, 0 0 4px #ff0;
+    background-color: #a9924d;
+    color: #003116;
+}
+@media(max-width:550px){
+    h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    button{
+        font-size: 0.9rem;
+    }
+}
+@media(max-width:800px){
+    h1{
+        text-align: center;
+    }
+}
+@media(max-width:1100px){
+    h1{
+        text-align: center;
+    }
+}
