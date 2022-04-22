@@ -9,7 +9,7 @@ function faseUm() {
             break;
         } else if (alternativa == 'a' || alternativa == 'c') {
             if (contador >= 1) {
-                location.assign("../Perdeu/index.html")
+                location.assign("../../Perdeu/index.html")
                 break;
             } else {
                 alert('Alternativa incorreta!');
