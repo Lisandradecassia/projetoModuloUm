@@ -5,7 +5,7 @@ function faseUm() {
 
         if (alternativa == 'b') {
             alert('Mandou bem, Sonserino! Vamos para a fase 2?');
-            location.assign("./Fase2/index.html")
+            location.assign("../Fase2/index.html")
             break;
         } else if (alternativa == 'a' || alternativa == 'c') {
             if (contador >= 1) {
@@ -28,7 +28,7 @@ function faseDois() {
 
         if (alternativa == 'a') {
             alert('Mandou bem, Sonserino! Vamos para a fase 3?');
-            location.assign("./Fase3/index.html")
+            location.assign("../Fase3/index.html")
             break;
         } else if (alternativa == 'b' || alternativa == 'c') {
             if (contador >= 1) {
@@ -67,4 +67,3 @@ function faseTres() {
         }
     }
 }
-
