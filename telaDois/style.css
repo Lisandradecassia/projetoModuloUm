@@ -6,14 +6,14 @@
 
 body {
     background-image: url(../Imagens/penaelivro2.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    gap: 1em;
 }
 
 main {
@@ -62,80 +62,148 @@ button:hover {
     text-shadow: 0 0 4px #fff, 0 0 4px #ff0;
 }
 
-@media(max-width:1100px) {
-    h1 {
-        text-align: center;
+@media(max-width:1500px) {
+    main {
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        display: flex;
+        padding: 3rem;
     }
-}
 
-@media(max-width:800px) {
-    h1 {
-        text-align: center;
-    }
-}
-
-@media(max-width:550px) {
-    h1 {
+    h2 {
         font-size: 1.5rem;
-        text-align: center;
-    }
-
-    button {
-        font-size: 0.9rem;
-        box-sizing: 0.5rem;
-    }
-}
-
-@media(max-width:375px) {
-    h1 {
-        font-size: 0.2rem;
-        text-align: center;
+        text-align: center
     }
 
     h3 {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
+        text-align: center
+    }
+
+    p {
+        font-size: 1.0rem;
         text-align: center;
     }
 
     button {
-        font-size: 0.5rem;
-        box-sizing: 0.5rem;
+        font-size: 0.8rem;
 
+    }
+}
+@media(max-width:1200px) {
+    main {
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        display: flex;
+        padding: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        text-align: center
+    }
+
+    h3 {
+        font-size: 0.9rem;
+        text-align: center
     }
 
     p {
-        font-size: 0.6rem;
+        font-size: 1.0rem;
+        text-align: center;
     }
 
+    button {
+        font-size: 0.8rem;
+
+    }
+}
+@media(max-width:900px) {
     main {
-        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        display: flex;
+        padding: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        text-align: center
+    }
+
+    h3 {
+        font-size: 0.9rem;
+        text-align: center
+    }
+
+    p {
+        font-size: 1.0rem;
+        text-align: center;
+    }
+
+    button {
+        font-size: 0.8rem;
 
     }
-} 
-
-    @media(max-width:320px) {
-        h1 {
-            font-size: 0.2rem;
-            text-align: center;
-        }
-
-        h3 {
-            font-size: 0.8rem;
-            text-align: center;
-        }
-
-        button {
-            font-size: 0.5rem;
-            box-sizing: 0.5rem;
-
-        }
-
-        p {
-            font-size: 0.6rem;
-        }
-
-        main {
-            display: inline-block;
-
-        }
+}
+@media(max-width:600px) {
+    main {
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        display: flex;
+        padding: 5rem;
     }
+
+    h2 {
+        font-size: 0.9rem;
+        text-align: center
+    }
+
+    h3 {
+        font-size: 0.7rem;
+        text-align: center
+    }
+
+    p {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    button {
+        font-size: 0.4rem;
+
+    }
+}
+@media(max-width:400px) {
+    main {
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        display: flex;
+        padding: 3rem;
+    }
+
+    h2 {
+        font-size: 0.9rem;
+        text-align: center
+    }
+
+    h3 {
+        font-size: 0.7rem;
+        text-align: center
+    }
+
+    p {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    button {
+        font-size: 0.4rem;
+
+    }
+}

@@ -1,5 +1,3 @@
-@import url('http://fonts.cdnfonts.com/css/harry-potter');
-
 * {
     margin: 0;
     padding: 0;
@@ -108,9 +106,10 @@ button:hover {
     button {
         font-size: 1.0rem;
     }
+
     main {
         padding: 1em;
-     
+
     }
 }
 
@@ -135,9 +134,10 @@ button:hover {
     button {
         font-size: 0.9rem;
     }
+
     main {
         padding: 1em;
-     
+
     }
 }
 
@@ -158,9 +158,10 @@ button:hover {
     button {
         font-size: 0.7rem;
     }
+
     main {
         padding: 1em;
-     
+
     }
 }
 
@@ -180,8 +181,8 @@ button:hover {
     }
 
     main {
-        padding: 2em;
-     
+        padding: 2rem;
+
     }
 
     button {

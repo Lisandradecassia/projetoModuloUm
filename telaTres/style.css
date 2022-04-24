@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    display: flexbox;
 }
 
 body {
@@ -22,6 +21,7 @@ h1 {
     color: #003116;
     font-size: 2rem;
     text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 10px #ff0;
 }
 
 .cardprincipal {
@@ -31,7 +31,8 @@ h1 {
     justify-content: space-around;
     gap: 3em;
     background-color: #ffffffb3;
-    padding: 5em;
+    box-shadow: 0 0 10px #fff, 0 0 10px #ff0;
+    padding: 5rem;
     border-radius: 20px;
     width: 50%;
 }
@@ -41,8 +42,9 @@ h1 {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 5em;
+    gap: 5rem;
 }
+
 
 button {
     color: #D2C394;
@@ -62,8 +64,120 @@ button:hover {
     text-shadow: 0 0 4px #fff, 0 0 4px #ff0;
     background-color: black;
 }
-@media(max-width:800px){
-    h1{
-        font-size: 1.1rem;
+@media(max-width:1500px) {
+    body {
+        align-items: center;
+        background-size: cover;
+        text-align: center;
+        padding: 1.0rem;
+        display:flex;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 0.6rem;
+        width: 5rem;
+        margin: auto;
+    }
+
+    img {
+        width: 4.0rem;
+    }
+
+    .Cardpersonagens {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        gap: 0.6rem;
+    }
+
+    .cardprincipal {
+        display: flex;
+        background-size: cover;
+        box-sizing:content-box;
+        height: 16rem;
+        padding: 4rem;
+    }
+}
+@media(max-width:800px) {
+    body {
+        align-items: center;
+        background-size: cover;
+        text-align: center;
+        padding: 1.0rem;
+        display:flex;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 0.6rem;
+        width: 5rem;
+        margin: auto;
+    }
+
+    img {
+        width: 4.0rem;
+    }
+
+    .Cardpersonagens {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        gap: 0.6rem;
+    }
+
+    .cardprincipal {
+        display: flex;
+        background-size: cover;
+        box-sizing:content-box;
+        height: 16rem;
+        padding: 4rem;
+    }
+}
+@media(max-width:500px) {
+    body {
+        align-items: center;
+        background-size: cover;
+        text-align: center;
+        padding: 0.8rem;
+        display:flex;
+    }
+
+    h1 {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 0.6rem;
+        width: 5rem;
+        margin: auto;
+    }
+
+    img {
+        width: 3.0rem;
+    }
+
+    .Cardpersonagens {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        gap: 0.6rem;
+    }
+
+    .cardprincipal {
+        display: flex;
+        background-size: cover;
+        box-sizing:content-box;
+        height: 16rem;
+        padding: 4rem;
     }
 }
